@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="img-block cycle-slideshow"
+        data-cycle-timeout="2000"
+        data-cycle-caption="#caption-holder"
+        data-cycle-caption-template="{{alt}}"
+        data-cycle-fx="tileSlide"
+        data-cycle-tile-count="15" >
+        <img src="img/ocean-1.jpg" alt="Кораллы">
+        <img src="img/ocean-2.jpg" alt="Арт">
+        <img src="img/ocean-3.jpg" alt="Дайвинг">
+        <img src="img/ocean-4.jpg" alt="Мальдивы">
+    </div>
+    <h4 id="caption-holder"></h4>
+
+    <script src="jquery.min.js"></script>
+    <script src="jquery.cycle.all.js"></script>
+    <script src="jquery.cycle2.tile.js"></script>
+    <script></script>
+</body>
+</html>

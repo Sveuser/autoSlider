@@ -1,0 +1,26 @@
+body {
+    background: #141414;
+}
+
+img {
+    width: 700px;
+    height: 500px;
+}
+
+.img-block {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 500px;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+h4 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
